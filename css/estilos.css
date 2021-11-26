@@ -1,0 +1,179 @@
+body {
+    font-family: "Rubik", sans-serif;
+}
+/*Css index*/
+
+
+#logo {
+    display:flex;
+    justify-content: center;
+}
+h2 {
+    margin: 0.5rem;
+}
+
+#texto {
+    padding: 0.5rem;
+}
+
+#videoSemanal {
+    width: 90%;
+    height: 20rem;
+    margin: 0rem 1rem 0rem 1rem;
+
+  }
+
+.cards {
+    display: flex;
+}
+
+#cardUno {
+    display: flex;
+    justify-content: center;
+}
+
+
+#cardDos {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Media queries de main*/
+
+
+@media (min-width:768px) {
+
+    #cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+
+
+
+/*CSS Productos de jardin*/
+
+#txtButton {
+    font-family: "Rubik", sans-serif;
+}
+
+h2 {
+    font-family: "Rubik", sans-serif;
+}
+
+#comprar {
+    display: flex;
+    justify-content: center;
+}
+ 
+/*Media Queries jardin*/
+
+@media (min-width:768px) {
+
+    .fotoTierra {
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    #fotoHummus {
+        height: 420px;
+    }
+    .infoProducto {
+        font-size: 20px;
+    }
+    
+    
+    #comprar {
+        font-size: 35px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
+
+/*Fin CSS Productos*/
+
+/*CSS Contacto*/
+
+#datosPersonalesConsulta {
+    font-family: "Rubik", sans-serif;
+    padding-left: 2rem;
+  }
+  
+  
+  #formularioMailing {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input {
+    font-family: "Rubik", sans-serif;
+    border-radius: 1rem;
+  }
+  
+  textarea {
+    border-radius: 1rem;
+  }
+
+
+
+  /*Media Queries Contactanos*/
+
+  @media (min-width:768px) {
+
+    #formularioMailing {
+        display: flex;
+        justify-content: center;
+    }
+
+
+  }
+
+
+  /*Fin CSS Contacto*/
+
+  
+/*Css Flores*/
+
+/*Media Queries Flores */
+
+@media (min-width:768px) {
+
+    .fotoTierra {
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    #fotoFlor {
+        height: 420px;
+    }
+    .infoProducto {
+        font-size: 20px;
+    }
+    
+    #comprar {
+        font-size: 35px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}

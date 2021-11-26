@@ -1,0 +1,222 @@
+body {
+    font-family: "Rubik", sans-serif;
+}
+/*importaciones*/
+/*@import "./bs.scss/bootstrap.scss";*/
+
+
+/*Variables*/
+$pantalla: 720px;
+$ancho: 0.5rem;
+$mobile: 350px;
+$tablet: 481px;
+$desktop: 769px;
+
+/*Css index*/
+
+
+#logo {
+    display:flex;
+    justify-content: center;
+}
+
+
+.bloqueUno__nos{
+    font-size: smaller;
+    font-family: "Rubik", sans-serif;
+    padding: $ancho * 2;
+}
+
+.bloqueUno__nos-texto {
+    padding: $ancho * 2;
+    margin: $ancho * 2;
+
+}
+
+
+#videoSemanal {
+    width: 90%;
+    height: 20rem;
+    margin: 0rem 1rem 0rem 1rem;
+
+  }
+
+.cards {
+    display: flex;
+}
+
+#cardUno {
+    display: flex;
+    justify-content: center;
+}
+
+
+#cardDos {
+    display: flex;
+    justify-content: center;
+    margin: $ancho;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Media queries de main*/
+
+
+@media (min-width:768px) {
+
+    #cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+
+
+/*Css Menu*/
+
+.tablaBebidas {
+    padding: 0.2rem;
+}
+
+.tablaBebidas__Titulo {
+    padding: $ancho + $ancho;
+}
+
+
+/*Fin Css Menu*/
+
+
+
+
+/*CSS Productos de jardin*/
+
+#txtButton {
+    font-family: "Rubik", sans-serif;
+}
+
+h2 {
+    font-family: "Rubik", sans-serif;
+}
+
+#comprar {
+    display: flex;
+    justify-content: center;
+}
+ 
+/*Media Queries jardin*/
+
+@media (min-width:768px) {
+
+    .fotoTierra {
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    #fotoHummus {
+        height: 420px;
+    }
+    .infoProducto {
+        font-size: 20px;
+    }
+    
+    
+    #comprar {
+        font-size: 35px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
+
+/*Fin CSS Productos*/
+
+/*CSS Contacto*/
+
+.datosPersonalesConsulta {
+    font-family: "Rubik", sans-serif;
+    padding-left: 0.5rem;
+  }
+
+  .datosPersonalesConsulta__titulo{
+      padding: 00.5rem;
+      font-family: "Rubik", sans-serif;
+  }
+
+  .datosPersonalesConsulta__titulo-texto {
+    font-family: "Rubik", sans-serif;
+    padding: $ancho * 2 ;
+  }
+  
+  
+  #formularioMailing {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input {
+    font-family: "Rubik", sans-serif;
+    border-radius: $ancho * 2;
+  }
+  
+  textarea {
+    border-radius: $ancho * 2;
+  }
+
+
+
+  /*Media Queries Contactanos*/
+
+  @media (min-width:768px) {
+
+    #formularioMailing {
+        display: flex;
+        justify-content: center;
+    }
+
+
+  }
+
+
+  /*Fin CSS Contacto*/
+
+  
+/*Css Flores*/
+
+/*Media Queries Flores */
+
+@media (min-width:768px) {
+
+    .fotoTierra {
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    #fotoFlor {
+        height: 420px;
+    }
+    .infoProducto {
+        font-size: 20px;
+    }
+    
+    #comprar {
+        font-size: 35px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+}
