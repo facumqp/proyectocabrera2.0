@@ -22,15 +22,19 @@ $desktop: 769px;
 
 
 .bloqueUno__nos{
-    font-size: smaller;
+    font-size: 1.5rem;
     font-family: "Rubik", sans-serif;
-    padding: $ancho * 2;
+    padding: $ancho * 2 ;
 }
 
 .bloqueUno__nos-texto {
     padding: $ancho * 2;
-    margin: $ancho * 2;
+    margin: $ancho ;
 
+}
+
+.titulos {
+    padding: 1rem;
 }
 
 
@@ -149,15 +153,20 @@ h2 {
   }
 
   .datosPersonalesConsulta__titulo{
-      padding: 00.5rem;
+      font-size: 1.5rem;
+      padding: 0.5rem;
       font-family: "Rubik", sans-serif;
   }
 
   .datosPersonalesConsulta__titulo-texto {
     font-family: "Rubik", sans-serif;
-    padding: $ancho * 2 ;
+    padding: $ancho ;
   }
   
+  .instrucciones {
+    font-family: "Rubik", sans-serif;
+    padding: $ancho ;
+  }
   
   #formularioMailing {
     font-family: "Rubik", sans-serif;
@@ -194,6 +203,11 @@ h2 {
   
 /*Css Flores*/
 
+.infoProducto {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
 /*Media Queries Flores */
 
 @media (min-width:768px) {
@@ -209,6 +223,7 @@ h2 {
     }
     .infoProducto {
         font-size: 20px;
+        padding: 1rem;
     }
     
     #comprar {

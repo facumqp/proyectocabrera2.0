@@ -16,14 +16,18 @@ body {
 }
 
 .bloqueUno__nos {
-  font-size: smaller;
+  font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
   padding: 1rem;
 }
 
 .bloqueUno__nos-texto {
   padding: 1rem;
-  margin: 1rem;
+  margin: 0.5rem;
+}
+
+.titulos {
+  padding: 1rem;
 }
 
 #videoSemanal {
@@ -138,13 +142,19 @@ h2 {
 }
 
 .datosPersonalesConsulta__titulo {
-  padding: 00.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
   font-family: "Rubik", sans-serif;
 }
 
 .datosPersonalesConsulta__titulo-texto {
   font-family: "Rubik", sans-serif;
-  padding: 1rem;
+  padding: 0.5rem;
+}
+
+.instrucciones {
+  font-family: "Rubik", sans-serif;
+  padding: 0.5rem;
 }
 
 #formularioMailing {
@@ -180,6 +190,11 @@ textarea {
 
 /*Fin CSS Contacto*/
 /*Css Flores*/
+.infoProducto {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
 /*Media Queries Flores */
 @media (min-width: 768px) {
   .fotoTierra {
@@ -195,6 +210,7 @@ textarea {
   }
   .infoProducto {
     font-size: 20px;
+    padding: 1rem;
   }
   #comprar {
     font-size: 35px;
