@@ -82,6 +82,16 @@ footer {
   }
 }
 
+/* Css Footer*/
+footer {
+  background-color: #363030;
+  line-height: 2rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: center;
+  width: 100%;
+}
+
 /*Css Menu*/
 .tablaBebidas {
   padding: 0.2rem;
