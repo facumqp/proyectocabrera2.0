@@ -194,6 +194,12 @@ textarea {
   border-radius: 1rem;
 }
 
+#ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /*Media Queries Contactanos*/
 @media (min-width: 768px) {
   #formularioMailing {
