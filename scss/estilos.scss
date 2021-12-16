@@ -93,6 +93,10 @@ footer {
  
 }
 
+.footerColor {
+    color: white;
+}
+
 
 /*Css Menu*/
 
@@ -119,6 +123,9 @@ footer {
 h2 {
     font-family: "Rubik", sans-serif;
 }
+#fotoKit {
+    width: 25rem;
+}
 
 #comprar {
     display: flex;
@@ -138,6 +145,8 @@ h2 {
     #fotoHummus {
         height: 420px;
     }
+
+
     .infoProducto {
         font-size: 20px;
     }

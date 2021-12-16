@@ -92,6 +92,10 @@ footer {
   width: 100%;
 }
 
+.footerColor {
+  color: white;
+}
+
 /*Css Menu*/
 .tablaBebidas {
   padding: 0.2rem;
@@ -109,6 +113,10 @@ footer {
 
 h2 {
   font-family: "Rubik", sans-serif;
+}
+
+#fotoKit {
+  width: 25rem;
 }
 
 #comprar {
